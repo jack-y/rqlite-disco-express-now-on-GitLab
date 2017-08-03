@@ -1,0 +1,48 @@
+{
+  "name": "rqlite-disco-express",
+  "version": "1.0.0",
+  "description": "A simple Express-based RQLite Cluster Discovery Service",
+  "keywords": [
+    "node.js",
+    "express",
+    "rqlite",
+    "cluster",
+    "discovery",
+    "service"
+  ],
+  "dependencies": {
+    "body-parser": "1.17.x",
+    "cors": "2.8.x",
+    "express": "4.15.x",
+    "http-status":"1.0.x",
+    "moment": "2.18.x",
+    "uuid": "3.x"
+  },
+  "devDependencies": {
+    "code": "4.1.x",
+    "coveralls": "2.13.x",
+    "lab": "14.1.x",
+    "fs-extra":"4.0.x"
+  },
+  "url": "https://github.com/jack-y/rqlite-disco-express",
+  "bugs": {
+    "url": "https://github.com/jack-y/rqlite-disco-express",
+    "email": "jdesodt@e-soa.com"
+  },
+  "license": "MIT",
+  "author": "Jacques Desodt <jdesodt@e-soa.com>",
+  "contributors": [],
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jack-y/rqlite-disco-express"
+  },
+  "scripts": {
+    "test": "lab -v -P test -m 5000",
+    "coveralls": "lab -s -P test -m 5000 -r lcov | coveralls",
+    "coverage": "lab -v -P test -m 5000 -r html > coverage.html"
+  }
+}
