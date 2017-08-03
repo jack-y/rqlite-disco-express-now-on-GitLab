@@ -89,7 +89,7 @@ Copyright (c) 2017 Jacques Desodt. Licensed under [MIT][]
 [Coveralls]: https://coveralls.io/github/jack-y/rqlite-disco-express?branch=master
 [BadgeCoveralls]: https://coveralls.io/repos/github/jack-y/rqlite-disco-express/badge.svg?branch=master
 [Express]: http://expressjs.com/
-[RQLite]: http://www.philipotoole.com/tag/rqlite/
+[RQLite]: https://github.com/rqlite/rqlite
 [Discovery Service]: https://github.com/rqlite/rqlite/blob/master/doc/DISCOVERY.md
 [Cluster Discovery Service]: https://github.com/rqlite/rqlite/blob/master/doc/DISCOVERY.md
 [Cluster Guidelines]: https://github.com/rqlite/rqlite/blob/master/doc/CLUSTER_MGMT.md
