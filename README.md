@@ -4,7 +4,7 @@
 
 # rqlite-disco-express
 
-Last update: 08/03/2017
+Last update: 08/04/2017
 
 [![npm version][npm-badge]][npm-url]
 [![Build Status][travis-badge]][travis-url]
@@ -80,7 +80,7 @@ npm test
 Copyright (c) 2017 Jacques Desodt. Licensed under [MIT][]
 
 [Logo-rqlite]: http://www.philipotoole.com/wp-content/uploads/2016/04/j.png
-[npm-badge]: https://img.shields.io/js/rqlite-disco-express.svg
+[npm-badge]: https://badge.fury.io/js/rqlite-disco-express.svg
 [npm-url]: https://npmjs.com/package/rqlite-disco-express
 [travis-badge]: https://travis-ci.org/jack-y/rqlite-disco-express.svg
 [travis-url]: https://travis-ci.org/jack-y/rqlite-disco-express

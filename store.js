@@ -19,9 +19,7 @@ store.createCluster = function (options, fs) {
     var cluster = clusterFactory.createCluster()
     // Saves the cluster
     store.save(options, cluster, fs)
-    .then(function (result) {
-      return resolve(result)
-    })
+    .then(function (result) { return resolve(result) })
     .catch(function (err) { return reject(err) })
   })
 }
@@ -85,9 +83,7 @@ store.addAndSave = function (options, node, cluster, fs) {
     if (clusterFactory.addNode(node, cluster)) {
       // Saves the cluster
       store.save(options, cluster, fs)
-      .then(function (result) {
-        return resolve(result)
-      })
+      .then(function (result) { return resolve(result) })
       .catch(function (err) { return reject(err) })
     } else {
       // The node is already set: no change to the cluster
@@ -103,9 +99,7 @@ store.removeAndSave = function (options, node, cluster, fs) {
     if (clusterFactory.removeNode(node, cluster)) {
       // Saves the cluster
       store.save(options, cluster, fs)
-      .then(function (result) {
-        return resolve(result)
-      })
+      .then(function (result) { return resolve(result) })
       .catch(function (err) { return reject(err) })
     } else {
       // The node is already removed: no change to the cluster
