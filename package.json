@@ -1,6 +1,6 @@
 {
   "name": "rqlite-disco-express",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple Express-based RQLite Cluster Discovery Service",
   "keywords": [
     "node.js",
@@ -11,6 +11,7 @@
     "service"
   ],
   "dependencies": {
+    "ajv": "6.4.x",
     "body-parser": "1.17.x",
     "cors": "2.8.x",
     "express": "4.15.x",
@@ -19,9 +20,9 @@
     "uuid": "3.x"
   },
   "devDependencies": {
-    "code": "4.1.x",
-    "coveralls": "2.13.x",
-    "lab": "14.1.x",
+    "code": "5.1.x",
+    "coveralls": "3.0.x",
+    "lab": "14.3.2",
     "fs-extra": "4.0.x"
   },
   "url": "https://github.com/jack-y/rqlite-disco-express",
